@@ -17,7 +17,11 @@
 ## 📚 Deskripsi Proyek
 SIAKAD (Sistem Informasi Akademik) adalah website untuk mengelola data akademik di perguruan tinggi. Sistem ini dirancang untuk memfasilitasi pengelolaan data mahasiswa, dosen, mata kuliah, jadwal kuliah, KRS (Kartu Rencana Studi), dan absensi secara efisien, transparan, dan mudah diakses oleh seluruh civitas akademika.
 
+## 🎨 Desain UI/UX
+Desain antarmuka aplikasi **SIAKAD** dibuat menggunakan Figma dengan tampilan yang sederhana, interaktif, dan mudah digunakan.  
+Berikut tautan menuju desain lengkapnya:
 
+🔗 [Lihat Desain di Figma](https://www.figma.com/design/yKVnF2UXInLOnK1VGmpebT/Untitled?node-id=0-1&t=IUD3arQinQZDwHbQ-1)
 
 
 
