@@ -11,9 +11,10 @@ Route::get('/siakad-login-test', function () {
     return view('pages.auth.login');
 });
 
+
 // Route buat uji tampilan Dashboard Mahasiswa
 Route::get('/dashboard-mhs', function () {
-    return view('pages.dashboard.index');
+    return view('pages.mahasiswa.dashboard');
 });
 
 // Route buat uji tampilan Jadwal Kuliah Mahasiswa
@@ -34,4 +35,11 @@ Route::get('/absen-mhs', function () {
 // Route buat uji tampilan Profil Mahasiswa
 Route::get('/profil-mhs', function () {
     return view('pages.mahasiswa.profil');
+});
+
+//------------
+
+// Route untuk pengujian tampilan Dashboard Dosen
+Route::get('/dashboard-dosen', function () {
+    return view('pages.dosen.dashboard');
 });
