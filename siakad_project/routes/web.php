@@ -61,7 +61,12 @@ Route::get('/dosen-profil', function () {
 
 //------------
 
-// Route untuk pengujian tampilan Dashboard Admin
+// Route buat tes tampilan Dashboard Admin
 Route::get('/admin-dashboard', function () {
     return view('pages.admin.dashboard');
+});
+
+// Route buat tes tampilan Manajemen Mahasiswa Admin
+Route::get('/admin-mhs', function () {
+    return view('pages.admin.mahasiswa');
 });
