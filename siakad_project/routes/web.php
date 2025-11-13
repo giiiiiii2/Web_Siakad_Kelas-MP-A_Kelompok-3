@@ -25,3 +25,8 @@ Route::get('/jadwal-mhs', function () {
 Route::get('/krs-mhs', function () {
     return view('pages.mahasiswa.krs');
 });
+
+// Route buat uji tampilan Riwayat Absensi Mahasiswa
+Route::get('/absen-mhs', function () {
+    return view('pages.mahasiswa.absen');
+});
