@@ -19,7 +19,7 @@ Route::get('/dashboard-mhs', function () {
 
 // Route buat tes tampilan Jadwal Kuliah Mahasiswa
 Route::get('/jadwal-mhs', function () {
-    return view('pages.mahasiswa.jadwal');
+    return view('pages.mahasiswa.jadwal_kuliah');
 });
 
 // Route buat tes tampilan KRS Mahasiswa
@@ -79,4 +79,9 @@ Route::get('/admin-dosen', function () {
 // Route buat tes tampilan Manajemen Mata Kuliah Admin
 Route::get('/admin-matkul', function () {
     return view('pages.admin.mata_kuliah');
+});
+
+// Route buat tes tampilan Manajemen Jadwal Perkuliahan Admin
+Route::get('/admin-jadwal', function () {
+    return view('pages.admin.jadwal');
 });
