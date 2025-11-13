@@ -20,3 +20,8 @@ Route::get('/dashboard-mhs', function () {
 Route::get('/jadwal-mhs', function () {
     return view('pages.mahasiswa.jadwal');
 });
+
+// Route buat uji tampilan KRS Mahasiswa
+Route::get('/krs-mhs', function () {
+    return view('pages.mahasiswa.krs');
+});
