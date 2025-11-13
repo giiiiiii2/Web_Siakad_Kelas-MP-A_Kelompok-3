@@ -70,3 +70,8 @@ Route::get('/admin-dashboard', function () {
 Route::get('/admin-mhs', function () {
     return view('pages.admin.mahasiswa');
 });
+
+// Route buat tes tampilan  Manajemen Dosen Admin
+Route::get('/admin-dosen', function () {
+    return view('pages.admin.dosen');
+});
