@@ -71,7 +71,12 @@ Route::get('/admin-mhs', function () {
     return view('pages.admin.mahasiswa');
 });
 
-// Route buat tes tampilan  Manajemen Dosen Admin
+// Route buat tes tampilan Manajemen Dosen Admin
 Route::get('/admin-dosen', function () {
     return view('pages.admin.dosen');
+});
+
+// Route buat tes tampilan Manajemen Mata Kuliah Admin
+Route::get('/admin-matkul', function () {
+    return view('pages.admin.mata_kuliah');
 });
