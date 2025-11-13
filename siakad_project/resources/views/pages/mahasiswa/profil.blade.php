@@ -48,7 +48,7 @@
                             id="nim"
                             name="nim"
                             value="F551230111"
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg text-sm bg-gray-100 cursor-not-allowed"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 placeholder-gray-400 text-sm bg-gray-50"
                         >
                     </div>
                 </div>

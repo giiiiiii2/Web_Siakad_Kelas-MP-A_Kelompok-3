@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 // Route buat tes tampilan Halaman Login Siakad
-Route::get('/siakad-login-test', function () {
+Route::get('/siakad-login', function () {
     return view('pages.auth.login');
 });
 
@@ -50,19 +50,19 @@ Route::get('/input-nilai', function () {
 });
 
 // Route buat tes tampilan Jadwal Mengajar Dosen
-Route::get('/dosen-jadwal', function () {
+Route::get('/jadwal-dosen', function () {
     return view('pages.dosen.jadwal_mengajar');
 });
 
 // Route buat tes tampilan Profil Dosen
-Route::get('/dosen-profil', function () {
+Route::get('/profil-dosen', function () {
     return view('pages.dosen.profil');
 });
 
 //------------
 
 // Route buat tes tampilan Dashboard Admin
-Route::get('/admin-dashboard', function () {
+Route::get('/dashboard-admin', function () {
     return view('pages.admin.dashboard');
 });
 
@@ -84,4 +84,9 @@ Route::get('/admin-matkul', function () {
 // Route buat tes tampilan Manajemen Jadwal Perkuliahan Admin
 Route::get('/admin-jadwal', function () {
     return view('pages.admin.jadwal');
+});
+
+// Route buat uji tampilan Profil Admin
+Route::get('/admin-profil', function () {
+    return view('pages.admin.profil');
 });
