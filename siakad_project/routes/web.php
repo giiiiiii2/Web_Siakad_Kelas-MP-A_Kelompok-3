@@ -53,3 +53,8 @@ Route::get('/input-nilai', function () {
 Route::get('/dosen-jadwal', function () {
     return view('pages.dosen.jadwal_mengajar');
 });
+
+// Route buat tes tampilan Profil Dosen
+Route::get('/dosen-profil', function () {
+    return view('pages.dosen.profil');
+});
