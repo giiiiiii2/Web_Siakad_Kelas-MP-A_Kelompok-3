@@ -58,3 +58,10 @@ Route::get('/dosen-jadwal', function () {
 Route::get('/dosen-profil', function () {
     return view('pages.dosen.profil');
 });
+
+//------------
+
+// Route untuk pengujian tampilan Dashboard Admin
+Route::get('/admin-dashboard', function () {
+    return view('pages.admin.dashboard');
+});
