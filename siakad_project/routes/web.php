@@ -30,3 +30,8 @@ Route::get('/krs-mhs', function () {
 Route::get('/absen-mhs', function () {
     return view('pages.mahasiswa.absen');
 });
+
+// Route buat uji tampilan Profil Mahasiswa
+Route::get('/profil-mhs', function () {
+    return view('pages.mahasiswa.profil');
+});
